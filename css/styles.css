@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color:black;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    padding: 0 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    margin: 0 auto;
+    min-width: 100%;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    position: relative;
+    font-weight: 600;
+    font-size: large;
+    color: dimgrey;
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color:aquamarine;
+    margin-bottom: .5em;
+}
+
+nav li a {
+    margin: 1em 6em;
+    justify-content: space-around;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    background-color: lightgray;
+}
+
+h3 {
+    text-align: center;
+    margin: 3em 0;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.content {
+    text-align: center;
+}
+
+.content span {
+    font-weight:600;
+    font-size: large;
+}
+
+.content p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#contact-ctn {
+    background-color: lightgray;
+    margin: 1em -1em -1em;
+    text-align: center;
+}
+
+#contact h3 {
+    padding-top: 2.5em;
+    margin-bottom: 0;
+}
+
+#contact p {
+    margin-top: 0;
+}
+
+#contact-ctn span {
+    font-weight: 600;
+}
+
+#contact-info-ctn {
+    padding-bottom: 5em;
+}
+
+footer{
+    position: float;
+    background-color: lightgray;
+    display: flex;
+}
+
+footer p {
+    margin-left: 1em;
+}
+
+footer span {
+    margin-left: 7em;
+}
+
+/* Media Queries for Larger Screen Sizes Here */
+
+@media (min-width: 768px)
+{
+
+}
+
+@media (min-width: 1024px) {
+
+}
