@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Student Portfolio</title>
@@ -14,17 +16,17 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
         <img src="/images/responsive-layout-profile.png" alt="Student Profile Image">
-        <p>Hi! I'm a front-end developer who loves responsice design and css. I recently finished a degree in fron-end web development at Treehouse and am excited to put all my skills to use!</p>
+        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in fron-end web development at Treehouse and am excited to put all my skills to use!</p>
     </section>
 
+    <a id="portfolio"><h3>portfolio</h3></a>
+    
     <section class="content">
-
-        <a id="portfolio"><h3>portfolio</h3></a>
 
         <div>
             <img src="/images/portfolio-1.png" alt="Marketing Page Photo">
@@ -68,10 +70,21 @@
                 <p>Email <span>email@yoursite.com</span></p>
             </div>
         </div>
+        <hr>
     </section>
-
     <footer>
-        <p>Student name <span><a href="index.html">BACK TO TOP</a></span></p>
+        
+        <p>Student name</p><div class="smaller"><a href="#top">BACK TO TOP</a>
+    </div>
+    <div class="larger">
+        <nav>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     </footer>
 </body>
 </html>
