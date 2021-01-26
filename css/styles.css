@@ -101,6 +101,21 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
+#skills-ctn {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr;
+    text-align: center;
+}
+
+#skills-ctn img {
+    margin-bottom: 2em;
+    width: 50%;
+    height: auto;
+}
+
+
+
 
 #contact-ctn {
     background-color: #FCECF9;
