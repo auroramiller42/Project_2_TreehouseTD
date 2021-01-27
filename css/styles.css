@@ -195,6 +195,35 @@ footer, .smaller {
     #contact-ctn {
      padding: 0 20%;
     }   
+
+    .smaller{
+        display: none;
+    }
+
+    footer, .larger {
+        background-color: #FCECF9;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3em;
+        font-weight: 600;
+        margin-top: -2px;
+        width: 100vw;
+    }
+
+    footer
+
+
+    .larger {
+        margin-top: 4.5em;
+    }
+
+    .larger nav {
+        margin-top: 0;
+    }
+
+    .larger a {
+        font-size: small;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -212,25 +241,5 @@ footer, .smaller {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    .smaller{
-        display: none;
-    }
 
-    footer, .larger {
-        background-color: #FCECF9;
-        display: flex;
-        justify-content: space-between;
-        align-items: right;
-        padding: 0 3em;
-        font-weight: 600;
-        margin-top: -2px;
-    }
-
-    .larger {
-        margin-top: 4.5em;
-    }
-
-    .larger a {
-        font-size: small;
-    }
 }
